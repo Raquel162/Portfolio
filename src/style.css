@@ -9,7 +9,7 @@ body {
 }
 .container {
   display: block;
-  margin-top: 5%;
+  margin-top: 2%;
   margin-bottom: 5%;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -20,6 +20,9 @@ body {
 }
 .introduction {
   margin: 15%;
+}
+.about-section h3 {
+  margin-top: 6%;
 }
 h1,
 h2,
@@ -57,5 +60,13 @@ button:hover {
 @media (max-width: 800px) {
   .self-description {
     font-size: medium;
+  }
+  .buttons {
+    font-size: smaller;
+  }
+}
+@media (max-width: 1000px) {
+  img {
+    margin-top: 10%;
   }
 }
