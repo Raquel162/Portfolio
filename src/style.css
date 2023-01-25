@@ -7,15 +7,17 @@
 body {
   background-color: var(--third-color);
 }
+.hero {
+  text-align: center;
+}
 .container {
   display: block;
   margin-top: 2%;
-  margin-bottom: 5%;
+  margin-bottom: 2%;
   padding-top: 20px;
   padding-bottom: 20px;
-  border: 2px solid black;
-  border-radius: 5px;
-  text-align: center;
+  border: 1px solid black;
+  border-radius: 3px;
   background-color: var(--fourth-color);
 }
 .introduction {
@@ -23,6 +25,9 @@ body {
 }
 .about-section h3 {
   margin-top: 6%;
+}
+.portfolio h3 {
+  margin-top: 0%;
 }
 h1,
 h2,
@@ -42,6 +47,9 @@ a:hover {
   text-decoration: none;
   color: var(--primary-color);
 }
+.mobile-btns {
+  display: none;
+}
 .buttons {
   display: flex;
   justify-content: center;
@@ -50,19 +58,34 @@ button {
   margin: 20px;
   padding: 7px;
   background-color: var(--third-color);
-  border: 2px solid black;
-  border-radius: 5px;
+  border: none;
+  border-radius: 3px;
 }
 button:hover {
+  text-decoration: underline;
+  transition: 0.5s;
+}
+.portfolio button {
+  border: 0.1px solid black;
+}
+.portfolio button:hover {
   background-color: var(--fourth-color);
-  transition: 0.7s;
+  transition: 0.1s;
+  border: 1px solid black;
+}
+.back-btn {
+  margin-bottom: 1%;
+  text-decoration: underline;
 }
 @media (max-width: 800px) {
   .self-description {
     font-size: medium;
   }
   .buttons {
-    font-size: smaller;
+    display: none;
+  }
+  .mobile-btns {
+    display: block;
   }
 }
 @media (max-width: 1000px) {
