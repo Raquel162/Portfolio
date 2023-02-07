@@ -23,6 +23,15 @@ body {
 .introduction {
   margin: 15%;
 }
+.contact-section {
+  margin: 1%;
+}
+.contact-section p {
+  color: var(--primary-color);
+}
+.contact-section a {
+  color: var(--second-color);
+}
 .about-section h3 {
   margin-top: 6%;
 }
@@ -35,7 +44,6 @@ h3 {
   text-align: center;
   color: var(--primary-color);
 }
-
 p {
   color: var(--second-color);
 }
