@@ -85,6 +85,20 @@ button:hover {
   margin-bottom: 1%;
   text-decoration: underline;
 }
+footer .mail-link {
+  color: var(--primary-color);
+  opacity: 50%;
+}
+footer a:hover {
+  color: var(--second-color);
+}
+footer .social-links {
+  margin: 1%;
+}
+footer .social-links a {
+  margin: 2%;
+  color: var(--primary-color);
+}
 @media (max-width: 800px) {
   .self-description {
     font-size: medium;
