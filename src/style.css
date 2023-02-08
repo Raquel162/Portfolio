@@ -95,6 +95,9 @@ button:hover {
   .mobile-btns {
     display: block;
   }
+  .mobile-btns .contact-btn {
+    display: none;
+  }
   .contact-section h3 {
     font-size: 25px;
   }
