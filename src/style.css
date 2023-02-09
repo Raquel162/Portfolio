@@ -14,8 +14,7 @@ body {
   display: block;
   margin-top: 2%;
   margin-bottom: 2%;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 20px;
   border: 1px solid black;
   border-radius: 3px;
   background-color: var(--fourth-color);
@@ -37,6 +36,11 @@ body {
 }
 .portfolio h3 {
   margin-top: 0%;
+}
+.description-text {
+  text-align: justify;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 h1,
 h2,
