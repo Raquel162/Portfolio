@@ -89,9 +89,10 @@ button:hover {
   margin-bottom: 1%;
   text-decoration: underline;
 }
-footer .mail-link {
+footer .github-code-link {
   color: var(--primary-color);
   opacity: 50%;
+  font-size: small;
 }
 footer a:hover {
   color: var(--second-color);
